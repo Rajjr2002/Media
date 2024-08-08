@@ -27,7 +27,6 @@ function App() {
       try {
         const response = await api.get('posts');
         setPosts(response.data);
-        console.log(posts)
       } catch (err) {
         if (err.response) {
           // Not in the 200 response range
