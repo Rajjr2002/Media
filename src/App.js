@@ -33,6 +33,7 @@ function App() {
           console.log(err.response.data);
           console.log(err.response.status);
           console.log(err.response.headers);
+          console.log(err.response.footer)
         } else {
           console.log(`Error: ${err.message}`);
         }
