@@ -15,7 +15,7 @@ const EditPost = ({
             setNewEditBody(post.body);
         }
     }, [post])
-
+    console.log("asdsad")
     return (
         <main className="NewPost">
             {newEditTitle &&
